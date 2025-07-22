@@ -1,0 +1,21 @@
+html, body {
+  height: 100vh; /* altura total da tela */
+  width: 100vw;
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;    /* centraliza verticalmente */   
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%); 
+}
+
+/* Centralizar o container */
+.container {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  width: 350px;
+  height: 580px;
+  background-color: var(--grey-800);
+  border-radius: 15px;
+}
+

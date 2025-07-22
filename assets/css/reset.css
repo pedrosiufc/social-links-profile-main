@@ -11,5 +11,10 @@ body{
 a{
     font-size: 11px; 
     text-align: center;
+    text-decoration: none;
+    color: var(--link-color)
 }
 
+ul li{
+    list-style: none;    
+}
